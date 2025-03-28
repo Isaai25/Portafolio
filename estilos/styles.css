@@ -1,0 +1,82 @@
+body {
+    background-color: rgb(149, 252, 204);
+    display: flex;
+    justify-content: center;
+    margin: 20%;
+}
+
+
+.contenedor {
+    width: 310px; 
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 20px;
+    
+   
+}
+.imagen {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.imagen img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px; 
+}
+
+
+.informacion {
+    margin-bottom: 20px;
+    background-color: transparent;
+    color: white;
+    border: 3px solid white;
+    border-radius: 20px ;
+    padding: 8px 20px ;
+}
+.nombre {
+    font-size: 20px;
+    margin: 10px 0;
+}
+.parrafo {
+    color: #4b4747;
+    font-size: 14px;
+    margin: 0 0 15px 0;
+}
+.Seleccion {
+    margin-bottom: 25px;
+    display: flex;
+    justify-content:  space-between;
+}
+.Seleccion select {
+    display: flex;
+    width:45%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+}
+.precio {
+    display: flex;
+    
+}
+
+#precio {
+    font-size: 25px;
+    margin: 0;
+}
+
+button {
+    background-color: #4CD964;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0px 0px 0px 105px;
+    
+}
+
+button {
+    background: radial-gradient(circle, #2aa55f, #5cff87);
+}
