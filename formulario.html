@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configuración de Cuenta</title>
+    <h3>Configuración de Cuenta</h3>
+</head>
+
+<body>
+    <form>
+        <label for="email">Correo Electrónico</label>
+        <input type="email" id="email">
+        <br><br>
+        <input type="submit" value="Actualizar Contraseña">
+        <br><br>
+        
+        <label for="estado">Estado</label>
+        <br>
+        <select id="estado">
+            <option>Ciudad de México</option>
+            <option>Veracruz</option>
+            <option>Monterrey</option>
+            <option>Guadalajara</option>
+        </select>
+        <br><br>
+        <hr>
+        
+        <label for="idiomas">Idiomas</label>
+        <br>
+        <select id="idiomas">
+            <option>Español</option>
+            <option>Francés</option>
+            <option>Italiano</option>
+            <option>Portugués</option>
+        </select>
+        <br><br>
+        <hr>
+        
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre">
+        <label for="apellidos">Apellidos</label>
+        <input type="text" id="apellidos">
+        <br><br>
+        
+        <label for="foto">Cargar Imagen</label>
+        <input type="file" id="foto" accept=".jpg">
+        <br><br>
+        
+        <label for="usuario">Usuario</label>
+        <input type="text" id="usuario">
+        <br><br>
+        
+        <label for="descripcion">Sobre ti</label>
+        <textarea id="descripcion"></textarea>
+        <br><br>
+        <hr>
+        
+        <h4>Opciones de Planes</h4>
+        
+        <label for="plan1">1 GB $50</label>
+        <input type="radio" name="planes" id="plan1" value="1">
+        <label for="plan2">5 GB $100</label>
+        <input type="radio" name="planes" id="plan2" value="2">
+        <label for="plan3">15 GB $200</label>
+        <input type="radio" name="planes" id="plan3" value="3">
+        <br><br>
+        
+        <h3>Método de Pago</h3>
+        <textarea rows="5" cols="35">
+        Mastercard con terminación 1234
+        Vence 12/24
+        </textarea>
+        <hr>
+        
+        <label for="notificaciones1">Actividad de mi cuenta</label>
+        <input type="checkbox" id="notificaciones1">
+        <p>Recibe notificaciones sobre tu actividad y seguridad de la cuenta.</p>
+        
+        <label for="notificaciones2">Novedades</label>
+        <input type="checkbox" id="notificaciones2">
+        <p>Recibe un resumen semanal con las últimas noticias y tendencias.</p>
+        
+        <label for="notificaciones3">Eventos Cercanos</label>
+        <input type="checkbox" id="notificaciones3">
+        <p>Recibe alertas sobre eventos y reuniones en tu zona.</p>
+        
+        <label for="notificaciones4">Noticias de la Empresa</label>
+        <input type="checkbox" id="notificaciones4">
+        <p>Recibe anuncios y actualizaciones de nuestros productos.</p>
+        
+        <label for="notificaciones5">Ofertas de Trabajo</label>
+        <input type="checkbox" id="notificaciones5">
+        <p>Recibe un resumen semanal con oportunidades laborales.</p>
+        
+        <input type="submit" value="Guardar Configuración">
+        <input type="reset" value="Restablecer Datos">
+    </form>
+</body>
+</html>
