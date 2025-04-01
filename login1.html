@@ -1,24 +1,81 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de Inicio de Sesión</title>
-    <link rel="stylesheet" href="estilos/login.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Optimización con IA</title>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <div class="contenedor">
-        <div class="derecha">
-            <h2>Bienvenido </h2>
-            <p>Bienvenido a mi login.</p>
-            <button class="boton-info">Información</button>
-        </div>
-        <div class="izquierda">
-            <h2>Iniciar Sesión</h2>
-            <input type="ususario" placeholder="Ingrese su usuario">
-            <input type="patron" placeholder="Ingrese su contraseña">
-            <button class="boton-login">INGRESAR</button>
-        </div>
+<body class="bg-gray-100 text-gray-900 font-sans">
+  <!-- Encabezado -->
+  <header class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+    <div class="flex gap-4 text-sm font-medium">
+      <a href="#">Tecnología</a>
+      <a href="#">Precios</a>
     </div>
+    <div class="flex gap-6 items-center">
+      <nav class="hidden md:flex gap-6 text-sm">
+        <a href="#">Acerca de</a>
+        <a href="#">Blog</a>
+        <a href="#" class="px-4 py-1 bg-black text-white rounded-full text-sm">Ver demostración</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="max-w-6xl mx-auto px-6 py-12 grid md:grid-cols-2 gap-10 items-center">
+    <div class="space-y-4">
+      <p class="text-sm text-gray-500">Ahorra tiempo y dinero.<br>Gestión de inventario automatizada</p>
+      <h1 class="text-5xl font-bold leading-tight">Optimiza,<br>Supera</h1>
+    </div>
+    <div class="flex justify-center">
+      <img src="https://imgs.search.brave.com/f_ywWHDqQgTCZ40HQUIDYeIxRg0BUjE6axGUJ87sbGk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvZmVhdHVy/ZWQvaW1hZ2VuZXMt/ZGUtdGVjbm9sb2dp/YS1kZS1sYS1pbmZv/cm1hY2lvbi1udWNi/NHo5N2IzcTc4bWpr/LmpwZw" alt="Ilustración de teléfono" class="max-w-xs">
+    </div>
+  </section>
+
+  <!-- IA Potencial -->
+  <section class="text-center px-6 py-12">
+    <h2 class="text-2xl md:text-3xl font-semibold mb-4">
+      Aprovecha el poder de la IA en <span class="inline-flex">🧑‍💻👩‍💼👨‍🔧</span> + adquisición de partes aeronáuticas
+    </h2>
+  </section>
+
+  <!-- Sección de características -->
+  <section class="max-w-6xl mx-auto px-6 py-12 grid md:grid-cols-2 gap-10">
+    <div class="bg-white rounded-xl shadow p-4 flex flex-col items-center">
+      <img src="https://imgs.search.brave.com/1tifz73wl1dy3oZIMeVQzwVz7gVuvLe05R_a9vttvYc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvZmVhdHVy/ZWQvaW1hZ2VuZXMt/ZGUtdGlrdG9rLTlu/b2sxNWF0MXp6bndl/ZHcuanBn" alt="Vista previa del panel" class="rounded-lg shadow-md">
+      <button class="mt-4 px-4 py-2 text-sm border border-gray-300 rounded-full">Ver nuestro panel</button>
+    </div>
+
+    <div class="flex flex-col justify-between">
+      <div class="space-y-4 text-left">
+        <div class="flex gap-4 items-start">
+          <span class="font-bold text-xl text-gray-700">01</span>
+          <div>
+            <h3 class="font-semibold text-lg">Revolución IA</h3>
+            <p class="text-sm text-gray-600">Accede a compras seguras con Blockchain, asegurando la autenticidad de las piezas.</p>
+          </div>
+        </div>
+        <div class="flex gap-4 items-start">
+          <span class="font-bold text-xl text-gray-700">02</span>
+          <div>
+            <h3 class="font-semibold text-lg">Chatbot IA JET</h3>
+            <p class="text-sm text-gray-600">Mejora el abastecimiento con el Chatbot JET en plataformas de mensajería populares.</p>
+          </div>
+        </div>
+        <div class="flex gap-4 items-start">
+          <span class="font-bold text-xl text-gray-700">03</span>
+          <div>
+            <h3 class="font-semibold text-lg">Asistencia con IA</h3>
+            <p class="text-sm text-gray-600">Interactúa eficientemente con nuestro sistema usando comandos de voz.</p>
+          </div>
+        </div>
+      </div>
+      <div class="bg-green-500 text-white p-6 rounded-xl text-center mt-6">
+        <p class="text-3xl font-bold">40%</p>
+        <p class="text-sm mt-2">El chatbot JET reduce los tiempos de respuesta.</p>
+      </div>
+    </div>
+  </section>
 </body>
 </html>
